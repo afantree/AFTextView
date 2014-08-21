@@ -15,15 +15,16 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AFCycleTableView"
+  s.name         = "AFTextView"
   s.version      = "0.0.1"
-  s.summary      = "A UI for Shuffling figure."
+  s.summary      = "a subclass of UITextView . It's a PlaceHolder property."
 
   s.description  = <<-DESC
-                   A UI for Shuffling figure(关于轮播图的控件) 
+                   a subclass of UITextView . It's a PlaceHolder property .
+                   (继承于UITextView，增加了一个PlaceHolder属性。) 
                    DESC
 
-  s.homepage     = "http://blog.afantree.com/github/AFCycleTableView"
+  s.homepage     = "http://blog.afantree.com/github/AFTextView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -59,8 +60,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/afantree/AFCycleTableView.git", :tag => "0.0.1" }
-  s.source_files  = "AFCycleTableView/Classes/*.{h,m}"
+  s.source       = { :git => "https://github.com/afantree/AFTextView.git", :tag => "0.0.1" }
+  s.source_files  = "AFTextView/Classes/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
